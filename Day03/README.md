@@ -302,15 +302,6 @@ Silver contains fewer records because duplicate and invalid records were removed
 - Deduplicated
 - Validated and trusted
 
-## Mini Challenges
-
-1. Find customers whose age is greater than 30.
-2. Find the number of customers in each city.
-3. Find duplicate CustomerIds in Bronze.
-4. Find records with missing values before cleaning.
-5. Create a DataFrame containing only `CustomerId`, `CustomerName`, and `City`.
-6. Create `valid_customers` and `invalid_customers` DataFrames and write invalid records to `silver.invalid_customers`.
-
 ## Key Learnings
 
 ### Volume
