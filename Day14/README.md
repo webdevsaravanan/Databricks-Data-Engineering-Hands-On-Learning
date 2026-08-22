@@ -738,4 +738,4 @@ You should now be able to explain:
 
 > **Bronze preserves the incoming source data. During Silver processing, Data Quality rules identify valid and invalid records. Valid records are deduplicated and conditionally MERGED into Silver, while invalid records are written to a quarantine table with the reason for failure.**
 
-**Next: Day 15 - Schema Evolution & `_rescued_data`: handling new columns, unexpected columns, datatype mismatches, and evolving source schemas.**
+**Next: [Day 15](../Day15/README.md) - Schema Evolution & `_rescued_data`: handling new columns, unexpected columns, datatype mismatches, and evolving source schemas.**
