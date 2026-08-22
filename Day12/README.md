@@ -889,4 +889,4 @@ You should now be able to explain:
 
 > **Auto Loader incrementally discovers files. Structured Streaming processes them as micro-batches. `AvailableNow` processes currently available data and then stops. `foreachBatch` receives each micro-batch as a normal DataFrame, allowing batch-style operations such as deduplication and Delta MERGE. Checkpoints maintain incremental processing state.**
 
-**Next: Day 13 - Complete Auto Loader → Bronze → `readStream` → `foreachBatch` → Deduplication → Conditional MERGE → Silver pipeline.**
+**Next: [Day 13](../Day13/README.md) - Complete Auto Loader → Bronze → `readStream` → `foreachBatch` → Deduplication → Conditional MERGE → Silver pipeline.**
