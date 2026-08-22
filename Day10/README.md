@@ -840,4 +840,4 @@ By completing Day 10, you should be able to:
 
 ---
 
-**Next: Day 11 - Auto Loader + Bronze → Silver incremental pipeline with data quality, deduplication, latest-record selection and MERGE.**
+**Next: [Day 11](../Day11/README.md) - Auto Loader + Bronze → Silver incremental pipeline with data quality, deduplication, latest-record selection and MERGE.**
