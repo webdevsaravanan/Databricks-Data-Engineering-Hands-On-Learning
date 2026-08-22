@@ -452,4 +452,4 @@ The pipeline now:
 
 ---
 
-**Next:** Day 05 - Delta Lake Fundamentals and ACID Transactions.
+**Next:** [Day 05](../Day05/README.md) - Delta Lake Fundamentals and ACID Transactions.
