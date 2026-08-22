@@ -521,4 +521,4 @@ By completing Day 6, you have practiced a fundamental production ETL pattern:
 
 ---
 
-**Next:** Day 07 - Data Quality, Constraints, NULL Handling, Duplicate Detection and Cleaning.
+**Next:** [Day 07](../Day07/README.md) - Data Quality, Constraints, NULL Handling, Duplicate Detection and Cleaning.
