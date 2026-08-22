@@ -520,4 +520,4 @@ By completing Day 9, you should be able to:
 
 ---
 
-**Next:** Day 10 - Incremental File Processing with Auto Loader and handling new files arriving continuously in cloud storage.
+**Next:** [Day 10](../Day10/README.md) - Incremental File Processing with Auto Loader and handling new files arriving continuously in cloud storage.
