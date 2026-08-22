@@ -702,4 +702,4 @@ This is a core production Data Engineering pattern.
 
 ---
 
-**Next: Day 12 - Structured Streaming and how the Bronze → Silver pipeline can run continuously instead of being manually triggered.**
+**Next: [Day 12](../Day12/README.md) - Structured Streaming and how the Bronze → Silver pipeline can run continuously instead of being manually triggered.**
