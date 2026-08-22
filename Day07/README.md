@@ -553,4 +553,4 @@ By completing Day 7, you should be able to:
 
 ---
 
-**Next:** Day 08 - Advanced Deduplication with PySpark Window Functions and handling multiple versions of the same business key.
+**Next:** [Day 08](../Day08/README.md) - Advanced Deduplication with PySpark Window Functions and handling multiple versions of the same business key.
