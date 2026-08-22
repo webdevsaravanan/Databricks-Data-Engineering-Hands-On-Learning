@@ -588,4 +588,4 @@ By completing Day 5, you have practiced the fundamental Delta Lake operations re
 
 ---
 
-**Next:** Day 06 - Delta Lake `MERGE` / Upsert and Incremental Data Processing.
+**Next:** [Day 06](../Day05/README.md) - Delta Lake `MERGE` / Upsert and Incremental Data Processing.
