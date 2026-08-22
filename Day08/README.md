@@ -609,4 +609,4 @@ By completing Day 8, you should be able to:
 
 ---
 
-**Next:** Day 09 - Build a complete incremental pipeline: Bronze → Data Quality → Deduplication → MERGE → Silver.
+**Next:** [Day 09](../Day09/README.md) - Build a complete incremental pipeline: Bronze → Data Quality → Deduplication → MERGE → Silver.
