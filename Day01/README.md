@@ -129,4 +129,4 @@ Successfully created the first Databricks notebook, Spark DataFrame, and managed
 
 ---
 
-**Next:** [Day 02](Day02/README.md) - Ingest customer data into the Bronze layer.
+**Next:** [Day 02](../Day02/README.md) - Ingest customer data into the Bronze layer.
