@@ -842,4 +842,4 @@ You should now be able to explain:
 
 > **Auto Loader incrementally loads files into Bronze. A streaming read of Bronze produces micro-batches. `foreachBatch` provides each micro-batch as a normal DataFrame, allowing deduplication and Delta MERGE. The conditional MERGE ensures that an older source record cannot overwrite a newer Silver record.**
 
-**Next: Day 14 - Data Quality: handling nulls, invalid values, bad records, and quarantine tables.**
+**Next: [Day 14](../Day14/README.md) - Data Quality: handling nulls, invalid values, bad records, and quarantine tables.**
