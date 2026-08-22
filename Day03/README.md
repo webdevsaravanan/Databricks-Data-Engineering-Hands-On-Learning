@@ -368,4 +368,4 @@ Trusted Customer Data
 ```
 
 
-**Next:** Day 04 - Multi-table ETL using Customers, Products, and Orders.
+**Next:** [Day 04](../Day04/README.md)  - Multi-table ETL using Customers, Products, and Orders.
