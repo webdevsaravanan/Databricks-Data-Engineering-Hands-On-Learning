@@ -207,4 +207,4 @@ Successfully ingested customer data from CSV into Databricks and created the fir
 
 ---
 
-**Next:** Day 03 - Clean and transform Bronze customer data into the Silver layer.
+**Next:** [Day 03](../Day03/README.md) - Clean and transform Bronze customer data into the Silver layer.
