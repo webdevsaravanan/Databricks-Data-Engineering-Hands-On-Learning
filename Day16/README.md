@@ -1162,5 +1162,5 @@ You should now be able to explain:
 > to manage historical versions, effective dates, and current-record
 > status.**
 
-**Next: Day 17 - SCD Type 2 with a robust streaming/`foreachBatch`
+**Next:[Day 17](../Day17/README.md) - SCD Type 2 with a robust streaming/`foreachBatch`
 implementation.**
