@@ -502,3 +502,5 @@ The Bronze write uses `txnAppId` and `txnVersion=batch_id`, which protects again
 ## Day 17 outcome
 
 You now have a Bronze-to-Silver customer pipeline that preserves raw events, maintains SCD Type 2 history, handles duplicate and unchanged inputs, protects established history from late changes, and can be tested one micro-batch at a time in Databricks Free Edition.
+
+**Next:[Day 18](../Day18/README.md) - Data Quality & Quarantine**
