@@ -808,3 +808,5 @@ Rejected data retained for investigation
 After completing Day 18, you should be able to explain and implement:
 
 > **A PySpark data-quality layer that validates incoming customer records, identifies invalid values and duplicates, separates valid and invalid records, writes trusted records to Silver, and stores rejected records in a quarantine Delta table with an explanation of why they were rejected.**
+
+
