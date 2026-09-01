@@ -204,6 +204,8 @@ bronze_stream_df = (
     .option("header", "true")
     .schema(customer_schema)
     .load("/Volumes/workspace/bronze/day19/input/")
+    .withColumn("SourceFile", F.col("_metadata.file_path"))
+    .withColumn("_ingested_at", F.current_timestamp())
 )
 ```
 
@@ -474,6 +476,7 @@ USING DELTA;
 
 ```sql
 CREATE TABLE IF NOT EXISTS silver.day19_customer_quarantine (
+    BatchId STRING,
     CustomerId INT,
     CustomerName STRING,
     City STRING,
@@ -516,12 +519,11 @@ def process_silver(batch_df, batch_id):
     if batch_df.isEmpty():
         return
 
+    batch_df=batch_df.drop( "_ingested_at")
+
     valid_df, invalid_df = validate_customers(batch_df)
 
-    invalid_df = (
-        invalid_df
-        .withColumn("SourceFile", F.input_file_name())
-    )
+    invalid_df=invalid_df.withColumn("BatchId", F.lit(batch_id ))
 
     invalid_df.write.mode("append").saveAsTable("silver.day19_customer_quarantine")
 
@@ -651,6 +653,7 @@ Customer 208 is rejected because its CustomerId appears more than once in the ba
 
 ```sql
 SELECT
+    BatchId,
     CustomerId,
     CustomerName,
     City,
