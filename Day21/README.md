@@ -1235,4 +1235,4 @@ By completing Day 21, you should be able to explain:
 
 ------------------------------------------------------------------------
 
-**Next:** Day 22 --- Databricks Jobs / Workflows
+**Next:** Day 22 Databricks Jobs / Workflows
