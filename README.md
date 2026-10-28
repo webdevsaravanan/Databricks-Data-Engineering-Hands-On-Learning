@@ -36,8 +36,17 @@ The projects progressively build a complete Data Engineering workflow using Data
 | [Day 08](Day08/README.md) | Deduplication & Latest Record Processing | ✅ Completed |
 | [Day 09](Day09/README.md) | Incremental ETL Pipeline | ✅ Completed |
 | [Day 10](Day10/README.md) | Auto Loader & Incremental File Ingestion | ✅ Completed |
-| Day 11 | Auto Loader → Bronze → Silver Pipeline | 🔜 Coming Soon |
-| Day 12+ | Advanced Data Engineering Topics | 🔜 Coming Soon |
+| [Day 11](Day11/README.md) | Auto Loader → Bronze → Silver Incremental Pipeline | ✅ Completed |
+| [Day 12](Day12/README.md) | Structured Streaming with AvailableNow + foreachBatch | ✅ Completed |
+| [Day 13](Day13/README.md) | Complete Incremental Auto Loader → Bronze → Silver Pipeline | ✅ Completed |
+| [Day 14](Day14/README.md) | Data Quality & Quarantine | ✅ Completed |
+| [Day 15](Day15/README.md) | Schema Evolution & _rescued_data | ✅ Completed |
+| [Day 16](Day16/README.md) | SCD Type 1 & SCD Type 2 with Delta Lake | ✅ Completed |
+| [Day 17](Day17/README.md) | Streaming SCD Type 2 with Delta Lake | ✅ Completed |
+| [Day 18](Day18/README.md) | Data Quality & Quarantine | ✅ Completed |
+| [Day 19](Day19/README.md) | Auto Loader + Structured Streaming + Data Quality | ✅ Completed |
+| [Day 20](Day20/README.md) | Gold Layer & Business Analytics | ✅ Completed |
+| [Day 21](Day21/README.md) | Advanced Delta Lake| ✅ Completed |
 
 ---
 
