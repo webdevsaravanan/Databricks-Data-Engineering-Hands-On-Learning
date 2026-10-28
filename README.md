@@ -99,7 +99,7 @@ The learning path is gradually building toward a production-style Medallion Arch
 Current progress:
 
 ```text
-██████████░░░░░░░░░░ 10 Days
+████████████████░░░░░░░░░░ 21 Days
 ```
 
 ### Completed
@@ -119,6 +119,9 @@ Current progress:
 - ✅ Streaming checkpoints
 - ✅ `_rescued_data`
 - ✅ File-level vs record-level incremental processing
+- ✅ SCD Type 1 & SCD Type 2 with Delta Lake
+- ✅ Gold Layer & Business Analytics 
+- ✅ Advanced Delta Lake
 
 ---
 
@@ -175,106 +178,9 @@ The goal is to understand:
 
 ---
 
-# 🚀 Current Milestone: Day 10
-
-The latest completed milestone is **Auto Loader**.
-
-The current pipeline understands:
-
-```text
-New CSV File
-     ↓
-Auto Loader
-     ↓
-Explicit Schema
-     ↓
-_rescued_data
-     ↓
-Bronze Delta Table
-```
-
-And an important distinction:
-
-```text
-Auto Loader
-     ↓
-File-level incremental ingestion
-
-Deduplication + MERGE
-     ↓
-Record-level incremental processing
-```
-
-This distinction will be used heavily in the upcoming Bronze → Silver pipeline.
-
----
-
-# 🔮 Future Learning
-
-Days 11+ will continue from the existing concepts and progressively introduce more advanced Data Engineering topics.
-
-Potential areas include:
-
-```text
-Auto Loader
-    ↓
-Bronze → Silver
-    ↓
-Data Quality
-    ↓
-Deduplication
-    ↓
-MERGE
-    ↓
-Streaming
-    ↓
-Advanced Delta Lake
-    ↓
-Lakeflow
-    ↓
-Workflows / Jobs
-    ↓
-Performance Optimization
-    ↓
-Unity Catalog
-    ↓
-Production Architecture
-```
-
-The exact topics will be added day by day based on the progression of the hands-on projects.
-
----
-
-# 📌 Learning Goal
-
-The final objective is to be able to take a real Data Engineering requirement and design and implement a Databricks pipeline from:
-
-```text
-Source
-  ↓
-Ingestion
-  ↓
-Bronze
-  ↓
-Data Quality
-  ↓
-Transformation
-  ↓
-Silver
-  ↓
-Business Logic
-  ↓
-Gold
-  ↓
-Analytics
-```
-
-while understanding the **why, how, and trade-offs** behind each component.
-
----
 
 ## Current Status
 
-**Day 10 completed.**
+**Day 21 completed.**
 
-➡️ **Next: Day 11 - Auto Loader + Bronze → Silver Incremental Pipeline**
+➡️ **Next: Day 22 - Setup + Delta Lake: SCD Type 2 with MERGE INTO **
