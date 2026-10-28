@@ -47,7 +47,7 @@ The projects progressively build a complete Data Engineering workflow using Data
 | [Day 19](Day19/README.md) | Auto Loader + Structured Streaming + Data Quality | ✅ Completed |
 | [Day 20](Day20/README.md) | Gold Layer & Business Analytics | ✅ Completed |
 | [Day 21](Day21/README.md) | Advanced Delta Lake| ✅ Completed |
-
+| Day 22 | Setup + Delta Lake: SCD Type 2 with MERGE INTO | 🔜 Coming Soon |
 ---
 
 # 🏗️ Learning Architecture
@@ -183,4 +183,4 @@ The goal is to understand:
 
 **Day 21 completed.**
 
-➡️ **Next: Day 22 - Setup + Delta Lake: SCD Type 2 with MERGE INTO **
+➡️ **Next: Day 22 - Setup + Delta Lake: SCD Type 2 with MERGE INTO**
