@@ -47,7 +47,7 @@ The projects progressively build a complete Data Engineering workflow using Data
 | [Day 19](Day19/README.md) | Auto Loader + Structured Streaming + Data Quality | ✅ Completed |
 | [Day 20](Day20/README.md) | Gold Layer & Business Analytics | ✅ Completed |
 | [Day 21](Day21/README.md) | Advanced Delta Lake| ✅ Completed |
-| Day 22 | Setup + Delta Lake: SCD Type 2 with MERGE INTO | 🔜 Coming Soon |
+| [Day 22](Day22/README.md) | Delta Lake: SCD Type 2 with MERGE INTO | ✅ Completed |
 ---
 
 # 🏗️ Learning Architecture
@@ -99,7 +99,7 @@ The learning path is gradually building toward a production-style Medallion Arch
 Current progress:
 
 ```text
-████████████████░░░░░░░░░░ 21 Days
+████████████████░░░░░░░░░░ 22 Days
 ```
 
 ### Completed
